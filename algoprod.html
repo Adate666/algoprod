@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlgoProd - Expert MQL4/MQL5 Trading Tools</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body data-theme="dark">
+    <div class="container">
+      <!-- Navigation Menu -->
+      <nav class="navbar">
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+          <select class="lang-toggle" onchange="changeLanguage(this.value)">
+            <option value="fr">🇫🇷 FR</option>
+            <option value="en">🇺🇸 EN</option>
+            <option value="es">🇪🇸 ES</option>
+          </select>
+          <button class="theme-toggle" onclick="toggleTheme()">
+            <span id="themeIcon">🌙</span> Mode
+          </button>
+        </div>
+      </nav>
+
+      <!-- Header Section -->
+      <div class="header">
+        <div class="header-content">
+          <div class="logo">A</div>
+          <div class="welcome-text">WELCOME TO ALGOPROD</div>
+          <div class="subtitle">Expert MQL4/MQL5 Trading Tools</div>
+          <a href="#contact" class="cta-button">Démarrer Maintenant →</a>
+        </div>
+      </div>
+
+      <!-- Main Grid Section -->
+      <div class="main-grid">
+        <div class="grid-item">
+          <span>Expert Advisors<br />MQL4/MQL5</span>
+        </div>
+        <div class="grid-item">
+          <span>Indicateurs<br />Personnalisés</span>
+        </div>
+        <div class="grid-item">
+          <span>Scripts de<br />Trading</span>
+        </div>
+        <div class="grid-item">
+          <span>Optimisation<br />Stratégies</span>
+        </div>
+        <div class="grid-item">
+          <span>Backtesting<br />Avancé</span>
+        </div>
+        <div class="grid-item">
+          <span>Support<br />Technique</span>
+        </div>
+      </div>
+
+      <!-- Slider Section -->
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slider-title">Nos Outils de Trading</div>
+          <div class="slider-content" id="sliderContent">
+            <div class="slide">
+              <span>EA Scalping<br />Haute Fréquence</span>
+            </div>
+            <div class="slide">
+              <span>Système de<br />Grid Trading</span>
+            </div>
+            <div class="slide">
+              <span>Indicateur<br />Multi-Timeframe</span>
+            </div>
+            <div class="slide">
+              <span>Robot de<br />Copy Trading</span>
+            </div>
+            <div class="slide">
+              <span>Panel de<br />Gestion Risque</span>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <div class="nav-dot active" onclick="goToSlide(0)"></div>
+            <div class="nav-dot" onclick="goToSlide(1)"></div>
+            <div class="nav-dot" onclick="goToSlide(2)"></div>
+            <div class="nav-dot" onclick="goToSlide(3)"></div>
+            <div class="nav-dot" onclick="goToSlide(4)"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Grid -->
+      <div class="bottom-grid">
+        <div class="bottom-item">Documentation</div>
+        <div class="bottom-item">Téléchargements</div>
+        <div class="bottom-item">Formation</div>
+        <div class="bottom-item">Community</div>
+        <div class="bottom-item">Support</div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">Copyright 2025 - AlgoProd - KashTech - Tous droits réservés</div>
+    </div>
+  </body>
+</html>
